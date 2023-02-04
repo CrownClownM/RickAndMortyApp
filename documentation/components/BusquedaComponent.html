@@ -1,0 +1,886 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>auth-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">auth-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  BusquedaComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/protected/pages/busqueda/busqueda.component.ts</code>
+</p>
+
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-busqueda</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>../../catalogo.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./busqueda.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#hayError" >hayError</a>
+                            </li>
+                            <li>
+                                <a href="#respuesta" >respuesta</a>
+                            </li>
+                            <li>
+                                <a href="#termino" >termino</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#buscar" >buscar</a>
+                            </li>
+                            <li>
+                                <a href="#pagina" >pagina</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(rickService: <a href="../injectables/RickService.html" target="_self">RickService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/protected/pages/busqueda/busqueda.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>rickService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/RickService.html" target="_self" >RickService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="buscar"></a>
+                    <span class="name">
+                        <span ><b>buscar</b></span>
+                        <a href="#buscar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>buscar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="20"
+                            class="link-to-prism">src/app/protected/pages/busqueda/busqueda.component.ts:20</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pagina"></a>
+                    <span class="name">
+                        <span ><b>pagina</b></span>
+                        <a href="#pagina"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pagina(numero: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="31"
+                            class="link-to-prism">src/app/protected/pages/busqueda/busqueda.component.ts:31</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>numero</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hayError"></a>
+                    <span class="name">
+                        <span ><b>hayError</b></span>
+                        <a href="#hayError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/protected/pages/busqueda/busqueda.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="respuesta"></a>
+                    <span class="name">
+                        <span ><b>respuesta</b></span>
+                        <a href="#respuesta"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/Personajes.html" target="_self" >Personajes</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/protected/pages/busqueda/busqueda.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="termino"></a>
+                    <span class="name">
+                        <span ><b>termino</b></span>
+                        <a href="#termino"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/protected/pages/busqueda/busqueda.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
+import { Personajes } from &#x27;../../interfaces/personajes.interface&#x27;;
+import { RickService } from &#x27;../../services/rick.service&#x27;;
+import Swal from &#x27;sweetalert2&#x27;;
+
+@Component({
+  selector: &#x27;app-busqueda&#x27;,
+  templateUrl: &#x27;./busqueda.component.html&#x27;,
+  styleUrls: [&#x27;../../catalogo.css&#x27;]
+})
+
+export class BusquedaComponent {
+
+  termino: string &#x3D; &#x27;&#x27;;
+  hayError: boolean &#x3D; false;
+  respuesta !: Personajes;
+
+  constructor(private rickService: RickService) { }
+
+  buscar(){
+    this.rickService.getPersonajeBuscar(this.termino)
+    .subscribe( personajes &#x3D;&gt; {
+      this.hayError &#x3D; false;
+      this.respuesta &#x3D; personajes;
+    }, (err) &#x3D;&gt; {
+      this.hayError &#x3D; true;
+      Swal.fire(&#x27;No se encuentra ese personaje&#x27;, err, &#x27;warning&#x27;);
+    })
+  }
+
+  pagina(numero:number){
+    this.rickService.getPersonajesPagina(numero)
+    .subscribe( personajes &#x3D;&gt; {
+      console.log(personajes);
+      this.respuesta.results &#x3D; personajes.results;
+    })
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;form (ngSubmit)&#x3D;&quot;buscar()&quot; autocomplete&#x3D;&quot;off&quot;&gt;
+    &lt;input type&#x3D;&quot;text&quot; 
+            name&#x3D;&quot;termino&quot;
+            class&#x3D;&quot;search-bar&quot; 
+            [(ngModel)]&#x3D;&quot;termino&quot;
+            placeholder&#x3D;&quot;Buscar&quot;&gt;
+&lt;/form&gt;
+
+&lt;div class&#x3D;&quot;container&quot; *ngIf&#x3D;&quot;!hayError&quot;&gt;
+    &lt;div class&#x3D;&quot;card&quot; *ngFor&#x3D;&quot;let personaje of respuesta?.results&quot;&gt;
+        &lt;img src&#x3D;&quot;{{personaje.image}}&quot;&gt;
+        &lt;p&gt;{{personaje.name}}&lt;/p&gt;
+        &lt;a routerLink&#x3D;&quot;../personaje/{{personaje.id}}&quot;&gt;Leer más&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;pagination&quot;&gt;
+        &lt;ul&gt;
+            &lt;li *ngFor&#x3D;&quot;let in of [].constructor(respuesta.info?.pages); let i &#x3D; index&quot;&gt;
+                &lt;a (click)&#x3D;&quot;pagina(i+1)&quot;&gt;{{i+1}}&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div *ngIf&#x3D;&quot;hayError&quot;&gt;
+    &lt;app-catalogo&gt;&lt;/app-catalogo&gt;
+&lt;/div&gt;
+
+
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>../../catalogo.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.background {
+  min-height: 100vh;
+	margin: auto;
+  background-image: url(&#x27;../../assets/images/b1.jpg&#x27;);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: scroll;
+  overflow-x:hidden;
+}
+
+.catalogo {
+  width: 90%;
+	margin: auto;
+}
+
+h1, p {
+  color: var(--secondary-color);
+}
+
+header {
+	padding: 10px 0;
+}
+
+header .logo {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.logo img {
+  width: 500px;
+}
+
+form {
+	display: flex;
+	justify-content: space-around;
+}
+
+.search-bar {
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	padding: 0 20px;
+	border-radius: 100px;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+  margin: 20px 0px;
+}
+
+.categories {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.categories a {
+	color: var(--secondary-color);
+	font-size: 18px;
+	font-weight: 700;
+  cursor: pointer;
+}
+
+.categories a:hover {
+	color: var(--primary-color);
+}
+  
+/* Cards */
+
+.container{
+    max-width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 95%;
+    height: 80%;
+}
+
+.container .card p{
+    color: #000;
+    font-size: 16px;
+}
+
+.container .card a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.pagination {
+	margin:20px 0;
+}
+
+.pagination ul {
+	list-style:none;
+	text-align: center;
+  padding: 3px;
+}
+
+.pagination ul li {
+	display: inline-block;
+	margin: 5px;
+  cursor: pointer;
+}
+
+.pagination ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background: var(--alt-color);
+	text-decoration: none;
+}
+
+.pagination ul li a:hover {
+	background: var(--primary-color);
+}
+
+.product{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.product h1 {
+  margin-bottom: 35px;
+}
+
+.imagen{
+  display: block;
+  margin: auto;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: &#x27;Poppins&#x27;, sans-serif;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+@media screen and (max-width:800px) {
+  .logo img{
+    width: 300px;
+  }
+
+  header .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  header .logo p {
+    font-size: 90%;
+    margin: 0 20px;
+  }
+
+  header .categories a {
+    margin: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .card{
+    width: 150px;
+    height: 210px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 20px;
+    padding-top: 5px;
+  }
+
+  .container .card img{
+    width: 95%;
+    height: 75%;
+  }
+
+  .container .card p{
+    font-size: 75%;
+  }
+
+  .container .card a {
+    font-size: 70%;
+  }
+
+  .search-bar {
+    width: 80%;
+    height: 40px;
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    background: #fff;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* product */
+
+  .product{
+    margin-top: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2rem;
+    text-align: center;
+  }
+  
+  .product h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* pagination */
+  
+  .pagination ul li {
+    margin: 2px;
+  }
+  
+  .pagination ul li a {
+    font-size: 55%;
+    padding: 5px 10px;
+  }
+  
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><form (ngSubmit)="buscar()" autocomplete="off">    <input type="text"             name="termino"            class="search-bar"             [(ngModel)]="termino"            placeholder="Buscar"></form><div class="container" *ngIf="!hayError">    <div class="card" *ngFor="let personaje of respuesta?.results">        <img src="{{personaje.image}}">        <p>{{personaje.name}}</p>        <a routerLink="../personaje/{{personaje.id}}">Leer más</a>    </div>    <div class="pagination">        <ul>            <li *ngFor="let in of [].constructor(respuesta.info?.pages); let i = index">                <a (click)="pagina(i+1)">{{i+1}}</a>            </li>        </ul>    </div></div><div *ngIf="hayError">    <app-catalogo></app-catalogo></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BusquedaComponent', 'selector': 'app-busqueda'},{'name': 'CatalogoComponent', 'selector': 'app-catalogo'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MainComponent', 'selector': 'app-main'},{'name': 'PersonajeComponent', 'selector': 'app-personaje'},{'name': 'RegisterComponent', 'selector': 'app-register'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'BusquedaComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'BusquedaComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

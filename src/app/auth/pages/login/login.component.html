@@ -1,0 +1,30 @@
+<form class="form-login" 
+      [formGroup]="miFormulario"
+      (ngSubmit)="login()">
+
+    <h5>Login</h5>
+    <div class="field-section">
+        <label>Correo</label>
+        <input class="controls" 
+                type="email" 
+                formControlName="email"
+                placeholder="Ingrese su correo">
+    </div>
+    <div class="field-section">
+        <label>Contraseña</label>
+        <input class="controls" 
+                type="password" 
+                formControlName="password"
+                placeholder="Ingrese su contraseña">
+    </div>
+    <button class="boton"
+            type="submit">
+    <span>Ingresar</span>
+    </button>
+    <p>
+        <span>¿No tienes una cuenta?</span>
+        <br>
+        <a routerLink="/auth/registro">CREA UNA AQUÍ</a>
+    </p>
+
+</form>

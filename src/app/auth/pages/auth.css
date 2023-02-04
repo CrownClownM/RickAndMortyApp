@@ -1,0 +1,183 @@
+.background{
+  min-height: 100vh;
+  margin: auto;
+  padding-bottom: 20px;
+  background-image: url('../../../assets/images/b1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  overflow: scroll;
+  overflow-x:hidden;
+  overflow-y:hidden;
+
+}
+
+/* Estilo del login */
+
+.logo img{
+  width: 500px;
+  display:block;
+  margin:auto;
+  padding-top: 150px;
+  padding-bottom: 10px;
+}
+
+.form-login {
+  width: 400px;
+  min-height: 100px;
+  overflow: hidden;
+  display:block;
+  margin: auto;
+  margin-top: 30px;
+  background: #ffffff;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid var(--tertiary-color);
+  color: rgb(0, 0, 0);
+  border-radius: 0.5%;
+}
+
+h5 {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  margin: 15px;
+}
+
+.form-register {
+  width: 400px;
+  min-height: 100px;
+  overflow: hidden;
+  display:block;
+  margin: auto;
+  margin-top: 30px;
+  background: #ffffff;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid var(--tertiary-color);
+  color: rgb(0, 0, 0);
+}
+
+.field-section {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.field-section span {
+  font-size: 12px;
+  color: red;
+}
+
+.controls {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  padding: 11px 10px;
+  background: transparent;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.radioButton{
+  color: #000;
+}
+
+.boton {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    background: #4e4e4e;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.boton span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+}
+
+.boton:hover::after {
+    transform: scale(400);
+    background: var(--tertiary-color);
+}
+
+.form-login p{
+  height: 40px;
+  text-align: center;
+}
+
+.form-login a {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.form-login a:hover {
+  color: var(--tertiary-color);
+}
+
+.form-register p{
+  height: 40px;
+  text-align: center;
+}
+
+.form-register a {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.form-register a:hover {
+  color: var(--tertiary-color);
+}
+
+@media screen and (max-width:700px) {
+  .logo img{
+    width: 300px;
+    padding-bottom: 30px;
+  }
+
+  .form-login {
+  width: 300px;
+  height: 360px;
+  }
+
+  .form-register {
+  width: 300px;
+  height: 700px;
+  }
+}

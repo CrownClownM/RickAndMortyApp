@@ -1,0 +1,13 @@
+<div class="personaje">
+    <div>
+        <img class="imagen" src="{{personaje?.image}}">
+    </div>
+    <div>
+        <h1>{{personaje?.name}}</h1>
+        <p>Género: {{personaje?.gender}}</p>
+        <p>Especie: {{personaje?.species}}</p>
+        <p>Localización: {{personaje?.location?.name}}</p>
+        <p>Estado: {{personaje?.status}}</p>
+        <a routerLink="../../"><button>Volver al inicio</button></a>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<form class="form-register" 
+      [formGroup]="miFormulario"
+      (ngSubmit)="registro()">
+
+    <h5>Registro</h5>
+    <div class="field-section">
+        <label>Nombre de usuario</label>
+        <input class="controls" 
+                type="text" 
+                formControlName="username"
+                placeholder="Ingrese su nombre de usuario">  
+        <span *ngIf="campoValido('username')">
+                Debe ser de minimo 3 caracteres
+        </span>
+    </div>
+    <div class="field-section">
+        <label>Correo</label>
+        <input class="controls" 
+                type="email" 
+                formControlName="email"
+                placeholder="Ingrese su correo">
+        <span *ngIf="campoValido('email')">
+                Debe ser un correo
+        </span>
+    </div>
+    <div class="field-section">
+        <label>Contraseña</label>
+        <input class="controls" 
+                type="password" 
+                formControlName="password"
+                placeholder="Ingrese su contraseña">
+        <span *ngIf="campoValido('password')">
+                Debe ser de minimo 6 caracteres sin espacios o simbolos especiales
+        </span>
+    </div>
+   <button class="boton"
+        type="submit">
+        <span>Registrarse</span>
+   </button>
+   <p>
+        <span>¿Ya tienes una cuenta?</span>
+        <br>
+        <a routerLink="/">INGRESA AQUÍ</a>
+   </p>
+
+</form>

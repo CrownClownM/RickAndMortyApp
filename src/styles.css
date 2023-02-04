@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  height:100%;
+  background: #f3f3f3;
+}
+
+:root{
+  --primary-color: #037E8C;
+  --secondary-color: #9B9B9B;
+  --tertiary-color: #0cbaff;
+  --alt-color: #024959;
+}
+

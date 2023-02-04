@@ -1,0 +1,16 @@
+<div class="background">
+  <header>
+    <div class="logo">
+      <a routerLink="./">
+        <img src="../../../assets/images/rmb.png" (click)="home()">
+      </a>
+      <p>El universo es muy grande para preocuparse por algo tan pequeño.</p>
+    </div>
+    <div class="categories" id="categories">
+      <a (click)="logout()">Cerrar sesión</a>
+    </div>
+  </header>
+  <div class="catalogo">
+    <router-outlet></router-outlet>
+  </div>
+</div>
