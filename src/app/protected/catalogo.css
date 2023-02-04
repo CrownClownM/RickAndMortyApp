@@ -246,6 +246,8 @@ button:hover {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 2rem;
     text-align: center;
+    margin: auto auto;
+    margin-top: 30px;
   }
   
   .personaje h1 {

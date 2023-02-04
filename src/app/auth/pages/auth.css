@@ -172,12 +172,14 @@ p {
   }
 
   .form-login {
+  margin-top: 0px;
   width: 300px;
   height: 360px;
   }
 
   .form-register {
+  margin-top: 0px;
   width: 300px;
-  height: 700px;
+  min-height: 100px;
   }
 }
